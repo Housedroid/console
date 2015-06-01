@@ -1,0 +1,10 @@
+.light {
+  fill-opacity: 0;
+  stroke-width: 7px;
+  stroke: black;
+}
+
+.light .on{
+  fill-opacity: 1;
+  stroke-opacity: 0;
+}

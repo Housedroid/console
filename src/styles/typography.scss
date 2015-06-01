@@ -1,0 +1,19 @@
+@import "colors";
+
+// include font faces
+$fonts: 'ClearSans-Bold', 'ClearSans-BoldItalic', 'ClearSans-Light', 'ClearSans-Medium', 'ClearSans-MediumItalic',
+         'ClearSans-Italic', 'ClearSans-Regular', 'ClearSans-Thin';
+
+@each $font in $fonts {
+  @font-face {
+    font-family: $font;
+    src: local($font), url('fonts/' + $font + '.woff');
+  }
+}
+
+body {
+  //define font
+  font-family: 'ClearSans-Regular';
+  //and its color
+  color: $white;
+}

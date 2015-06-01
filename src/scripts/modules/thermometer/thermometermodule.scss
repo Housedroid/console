@@ -1,0 +1,28 @@
+$cooling-color: #2196F3;
+$heating-color: #F44336;
+
+.thermometer-scale {
+  fill-opacity: 0;
+}
+
+.cooling .currentLevel {
+  fill-opacity: 1;
+  fill: $cooling-color;
+}
+
+.cooling .targetLevel {
+  fill-opacity: 0;
+  stroke: $cooling-color;
+  stroke-width: 3px;
+}
+
+.heating .currentLevel {
+  fill-opacity: 1;
+  fill: $heating-color;
+}
+
+.heating .targetLevel {
+  fill-opacity: 0;
+  stroke: $heating-color;
+  stroke-width: 3px;
+}

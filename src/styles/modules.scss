@@ -1,0 +1,21 @@
+@import "colors";
+
+.modules {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  z-index: 11;
+  position: relative;
+}
+
+.module {
+  // module size
+  width: 300px;
+
+  // spacing between modules
+  margin: 10px;
+
+  color: $primary-color;
+}

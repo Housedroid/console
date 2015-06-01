@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles/mainnav.css"],"names":[],"mappings":"AAAA,UAAU,qBAAA,CAAa,YAAA,CAAA,qBAAA,CAAa,aAAA,AAAC,CAAA,SAAU,kBAAkB,CAAA,YAAY,CAAC","file":"style.css","sourcesContent":[".main-nav{display:flex;flex-flow:row}.nav-item{text-align:center;padding:10px}"],"sourceRoot":"/source/"}
